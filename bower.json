@@ -1,0 +1,24 @@
+{
+  "name": "js-utilities",
+  "authors": [
+    "Morphet <morphet81@outlook.com>"
+  ],
+  "description": "Simple utility functions for JS projects",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "js",
+    "javascript",
+    "utility",
+    "toolbox"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

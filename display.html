@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display</title>
+
+    <script type="text/javascript" src="display.js"></script>
+
+    <script type="text/javascript">
+
+        function initPage() {
+            document.getElementById("displaySize").innerHTML =
+                    "Viewport size: " + Display.viewportWidth() + "x" + Display.viewportHeight();
+        }
+
+    </script>
+
+</head>
+<body onload="initPage()">
+
+    <p id="displaySize"></p>
+
+</body>
+</html>
